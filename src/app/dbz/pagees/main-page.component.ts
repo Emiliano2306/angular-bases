@@ -22,7 +22,7 @@ export class MainPageComponent {
 
   }
 
-  onNewCharacter (character: Character) {
+  onNewCharacter (character: Character): void {
     this.dbzService.addCharacter(character)
   }
 
